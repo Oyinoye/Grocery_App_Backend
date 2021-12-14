@@ -2,6 +2,10 @@
 
 API for simple grocery app done with Python and Django.
 
+### Api Documentation
+Can be seen by importing the rideco.json file into Insomnia or Postman app.
+Update environment base url to port on your localhost(default: 8000)
+
 ### Setup
 
 Create a virtual environment in the project folder using `py -m venv venv`

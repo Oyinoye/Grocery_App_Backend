@@ -11,9 +11,7 @@ class GroceryViewSet(viewsets.ModelViewSet):
     queryset = Grocery.objects.all()
     serializer_class = GrocerySerializer
     authentication_classes = [JWTAuthentication]
-    permission_classes = [IsAuthenticated]
-
-    
+    permission_classes = [IsAuthenticated] 
 
     def get_queryset(self):
         qs = super().get_queryset()
